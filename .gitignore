@@ -42,3 +42,7 @@ bin/
 .DS_Store
 .idea/inspectionProfiles/Project_Default.xml
 .idea/gradle.xml
+.idea/gradle.xml
+.idea/misc.xml
+.idea/workspace.xml
+docs/색상.drawio.png
