@@ -4,21 +4,54 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5871f532-5d89-43dd-978d-a6446b70e74b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+    <list default="true" id="5871f532-5d89-43dd-978d-a6446b70e74b" name="Changes" comment="🔥 결제 금액의 할인을 관리하는 클래스&#10;&#10;discount() 구현">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dress/AsciiCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dress/DressType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dress/DressingGameMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dress/MenuType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exam/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exam/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hope/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/READMEhope.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/READMEhope.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hope/user/pay/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DataBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hope/user/pay/Pay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UserInputMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UserInputOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hope/user/order/UserInputOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UserInputTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hope/user/order/UserInputTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UserInputTableValidate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hope/user/order/UserInputTableValidate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -29,12 +62,67 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lkd\IdeaProjects\this-is-java-study\src\main\java\dress" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hope.Application" />
+      <module name="this-is-java-study.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hope.Application" />
+      <module name="this-is-java-study.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DressingGameMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dress.DressingGameMain" />
+      <module name="this-is-java-study.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dress.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exam.Main" />
+      <module name="this-is-java-study.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Application" />
+        <item itemvalue="Application.DressingGameMain" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -44,6 +132,253 @@
       <option name="presentableId" value="Default" />
       <updated>1672722254431</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1673082940717</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673082940717</updated>
+    </task>
+    <task id="LOCAL-00002" summary="initial commit">
+      <created>1673083735207</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673083735207</updated>
+    </task>
+    <task id="LOCAL-00003" summary="✨ 카드 결제를 담당하는 클래스&#10;&#10;initial commit">
+      <created>1673104403538</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673104403538</updated>
+    </task>
+    <task id="LOCAL-00004" summary="✨ 데이터 베이스&#10;&#10;initial commit">
+      <created>1673104415457</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673104415457</updated>
+    </task>
+    <task id="LOCAL-00005" summary="✨ 결제 인터페이스&#10;&#10;initial commit">
+      <created>1673104443574</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1673104443574</updated>
+    </task>
+    <task id="LOCAL-00006" summary="✨ 테이블 정보를 가지고 있는 클래스&#10;&#10;initial commit">
+      <created>1673104480154</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1673104480154</updated>
+    </task>
+    <task id="LOCAL-00007" summary="✨ 테이블이 주문한 정보를 가지고 있는 클래스&#10;&#10;initial commit">
+      <created>1673104518620</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1673104518620</updated>
+    </task>
+    <task id="LOCAL-00008" summary="✨ 유저로부터 입력받는 기능의 인터페이스&#10;&#10;initial commit">
+      <created>1673104541259</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1673104541259</updated>
+    </task>
+    <task id="LOCAL-00009" summary="✨ 유저가 매뉴를 선택할 때 입력받는 클래스&#10;&#10;initial commit">
+      <created>1673104559915</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1673104559915</updated>
+    </task>
+    <task id="LOCAL-00010" summary="✨ 유저가 매뉴를 선택할 때 입력받는 클래스&#10;&#10;initial commit">
+      <created>1673104577380</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1673104577380</updated>
+    </task>
+    <task id="LOCAL-00011" summary="✨ 유저가 테이블을 선택할 때 입력받는 클래스&#10;&#10;initial commit">
+      <created>1673104634847</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1673104634847</updated>
+    </task>
+    <task id="LOCAL-00012" summary="✨ 유저가 테이블을 선택할 때 입력한 값을 검증하는 클래스&#10;&#10;initial commit">
+      <created>1673104747755</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1673104747755</updated>
+    </task>
+    <task id="LOCAL-00013" summary="✨ 결제금액의 할인을 관리하는 클래스&#10;&#10;initial commit">
+      <created>1673150176641</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1673150176641</updated>
+    </task>
+    <task id="LOCAL-00014" summary="✨ 에러 메시지를 관리하는 클래스&#10;&#10;initial commit">
+      <created>1673150190344</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1673150190344</updated>
+    </task>
+    <task id="LOCAL-00015" summary="✨ 판매되는 메뉴를 관리하는 클래스&#10;&#10;initial commit">
+      <created>1673150202669</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1673150202669</updated>
+    </task>
+    <task id="LOCAL-00016" summary="✨ 메시지를 관리하는 클래스&#10;&#10;initial commit">
+      <created>1673150220452</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1673150220452</updated>
+    </task>
+    <task id="LOCAL-00017" summary="✨ 주문등록 메뉴를 관리하는 클래스&#10;&#10;initial commit">
+      <created>1673150229911</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1673150229911</updated>
+    </task>
+    <task id="LOCAL-00018" summary="✨ 유저에게 테이블 목록을 보여주는 클래스&#10;&#10;initial commit">
+      <created>1673150242153</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1673150242153</updated>
+    </task>
+    <task id="LOCAL-00019" summary="✨ 결제하기를 관리하는 클래스&#10;&#10;initial commit">
+      <created>1673150254294</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1673150254294</updated>
+    </task>
+    <task id="LOCAL-00020" summary="✨ 결제 실패 익셉션&#10;&#10;initial commit">
+      <created>1673150271581</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1673150271581</updated>
+    </task>
+    <task id="LOCAL-00021" summary="✨ 메인 컨트롤러&#10;&#10;initial commit">
+      <created>1673150279631</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1673150279631</updated>
+    </task>
+    <task id="LOCAL-00022" summary="✨ 유저로부터 메인 메뉴를 입력받는 클래스&#10;&#10;initial commit">
+      <created>1673150310121</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1673150310121</updated>
+    </task>
+    <task id="LOCAL-00023" summary="✨ 유저로부터 메뉴 주문을 입력받는 클래스&#10;&#10;initial commit">
+      <created>1673150339435</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1673150339435</updated>
+    </task>
+    <task id="LOCAL-00024" summary="✨ 커밋&#10;&#10;initial commit">
+      <created>1673165069760</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1673165069760</updated>
+    </task>
+    <task id="LOCAL-00025" summary="✨ 메인 컨트롤러&#10;&#10;주석 참고하여 startOfBusiness 를 구현. (void)">
+      <created>1673176852945</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1673176852945</updated>
+    </task>
+    <task id="LOCAL-00026" summary="✨ 테이블 정보를 가지고 있는 클래스&#10;&#10;getTableBills() 추가">
+      <created>1673176902470</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1673176902470</updated>
+    </task>
+    <task id="LOCAL-00027" summary="🔥 테이블이 주문한 정보를 가지고 있는 클래스&#10;&#10;클래스명 변경 TableBills -&gt; TableOrder&#10;getPrice(), getQuantity() 추가">
+      <created>1673176958254</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1673176958254</updated>
+    </task>
+    <task id="LOCAL-00028" summary="🔥 데이터 베이스&#10;&#10;getBills() 추가. 10마리당 10,000원이 할인 되는 메소드">
+      <created>1673177034609</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1673177034609</updated>
+    </task>
+    <task id="LOCAL-00029" summary="🔥 결제 금액의 할인을 관리하는 클래스&#10;&#10;discount() 구현">
+      <created>1673177059287</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1673177059287</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="✨ 데이터 베이스&#10;&#10;initial commit" />
+    <MESSAGE value="✨ 결제 인터페이스&#10;&#10;initial commit" />
+    <MESSAGE value="✨ 테이블 정보를 가지고 있는 클래스&#10;&#10;initial commit" />
+    <MESSAGE value="✨ 테이블이 주문한 정보를 가지고 있는 클래스&#10;&#10;initial commit" />
+    <MESSAGE value="✨ 유저로부터 입력받는 기능의 인터페이스&#10;&#10;initial commit" />
+    <MESSAGE value="✨ 유저가 매뉴를 선택할 때 입력받는 클래스&#10;&#10;initial commit" />
+    <MESSAGE value="✨ 유저가 테이블을 선택할 때 입력받는 클래스&#10;&#10;initial commit" />
+    <MESSAGE value="✨ 유저가 테이블을 선택할 때 입력한 값을 검증하는 클래스&#10;&#10;initial commit" />
+    <MESSAGE value="✨ 결제금액의 할인을 관리하는 클래스&#10;&#10;initial commit" />
+    <MESSAGE value="✨ 에러 메시지를 관리하는 클래스&#10;&#10;initial commit" />
+    <MESSAGE value="✨ 판매되는 메뉴를 관리하는 클래스&#10;&#10;initial commit" />
+    <MESSAGE value="✨ 메시지를 관리하는 클래스&#10;&#10;initial commit" />
+    <MESSAGE value="✨ 주문등록 메뉴를 관리하는 클래스&#10;&#10;initial commit" />
+    <MESSAGE value="✨ 유저에게 테이블 목록을 보여주는 클래스&#10;&#10;initial commit" />
+    <MESSAGE value="✨ 결제하기를 관리하는 클래스&#10;&#10;initial commit" />
+    <MESSAGE value="✨ 결제 실패 익셉션&#10;&#10;initial commit" />
+    <MESSAGE value="✨ 메인 컨트롤러&#10;&#10;initial commit" />
+    <MESSAGE value="✨ 유저로부터 메인 메뉴를 입력받는 클래스&#10;&#10;initial commit" />
+    <MESSAGE value="✨ 유저로부터 메뉴 주문을 입력받는 클래스&#10;&#10;initial commit" />
+    <MESSAGE value="✨ 커밋&#10;&#10;initial commit" />
+    <MESSAGE value="✨ 메인 컨트롤러&#10;&#10;주석 참고하여 startOfBusiness 를 구현. (void)" />
+    <MESSAGE value="✨ 테이블 정보를 가지고 있는 클래스&#10;&#10;getTableBills() 추가" />
+    <MESSAGE value=" 테이블이 주문한 정보를 가지고 있는 클래스&#10;&#10;클래스명 변경 TableBills -&gt; TableOrder&#10;getPrice(), getQuantity() 추가" />
+    <MESSAGE value=" 데이터 베이스&#10;&#10;getBills() 추가. 10마리당 10,000원이 할인 되는 메소드" />
+    <MESSAGE value=" 결제 금액의 할인을 관리하는 클래스&#10;&#10;discount() 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value=" 결제 금액의 할인을 관리하는 클래스&#10;&#10;discount() 구현" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

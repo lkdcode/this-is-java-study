@@ -69,25 +69,25 @@
 
 
 - 첫 번째 매뉴 <주문 등록>
-    - 테이블 목록을 보여주고 테이블 번호를 입력 받는다. .....<#OutputView,#UserInputOrder>
+    - 테이블 목록을 보여주고 테이블 번호를 입력 받는다. .....<#OutputView,#hope.user.order.UserInputOrder>
         - 1번에서 6번 사이의 숫자만 존재하는가? .....<#UserInputOrderValidate>
-    - 매뉴 목록을 보여주고 해당 매뉴의 번호를 입력 받는다. .....<#OutputView,#UserInputOrder>
+    - 매뉴 목록을 보여주고 해당 매뉴의 번호를 입력 받는다. .....<#OutputView,#hope.user.order.UserInputOrder>
         - 총 8가지의 매뉴가 각 고유 번호를 가지고 있다.
         - 이 고유 번호와 일치하는가? .....<#UserInputOrderValidate>
-    - 매뉴의 수량을 입력 받는다. .....<#UserInputOrder>
+    - 매뉴의 수량을 입력 받는다. .....<#hope.user.order.UserInputOrder>
         - 1에서 99 사이의 숫자인가? .....<#UserInputOrderValidate>
-    - 해당 테이블의 매뉴 이미지로 업데이트한다. (이모지 사용) .....<#Table>
+    - 해당 테이블의 매뉴 이미지로 업데이트한다. (이모지 사용) .....<#hope.data.Table>
 
 - 두 번째 매뉴 <결제하기>
     - 테이블 목록을 보여주고 테이블 번호를 입력 받는다. .....<#OuputView, #UserInputPay>
       - 1번에서 6번 사이의 숫자만 존재하는가? .....<#UserInputPayValidate>
     - 주문 내역과 총 지불 금액을 보여주고 결제 수단을 입력 받는다. .....<#OuputView, #UserInputPay>
       - 1 과 2외에 값은 다시 입력을 요청한다. .....<#UserInputPayValidate>
-    - 입력 받은 수단에 따라 해택을 제공한 후 최종 결제를 진행한다. .....<#OuputView,#Pay>
+    - 입력 받은 수단에 따라 해택을 제공한 후 최종 결제를 진행한다. .....<#OuputView,#hope.user.pay.Pay>
 
 
 - 세 번째 매뉴 <프로그램 종료>
-    - 결제가 완료되지 않은 테이블이 존재한다면 해당 프로그램을 종료할 수 없다. .....<#OutputView,#Table>
+    - 결제가 완료되지 않은 테이블이 존재한다면 해당 프로그램을 종료할 수 없다. .....<#OutputView,#hope.data.Table>
     - 프로그램이 종료된다. .....<#OutputView,#SystemController>
 
 #    

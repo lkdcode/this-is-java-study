@@ -1,3 +1,5 @@
+package hope.user.pay;
+
 public interface Pay {
 
     void paypal();

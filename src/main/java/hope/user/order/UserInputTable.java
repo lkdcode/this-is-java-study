@@ -1,3 +1,7 @@
+package hope.user.order;
+
+import hope.user.UserInput;
+
 import java.util.Scanner;
 
 /** 유저가 테이블을 선택할 때 입력받는 클래스
@@ -15,7 +19,7 @@ public class UserInputTable implements UserInput {
     }
 
     /**
-     * @parm UserInput = 유저가 테이블을 선택할 때 입력받는 역할
+     * @parm hope.user.UserInput = 유저가 테이블을 선택할 때 입력받는 역할
      */
     @Override
     public String userInput() {
