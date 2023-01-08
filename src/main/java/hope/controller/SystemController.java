@@ -24,7 +24,6 @@ public class SystemController {
         System.out.print("입력 : ");
         String inputNumber = scanner.nextLine();
 
-
         switch (inputNumber) {
             case "1":
                 System.out.println("주문등록 메뉴 실행");
