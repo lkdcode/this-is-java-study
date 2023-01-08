@@ -1,7 +1,9 @@
+package hope.data;
+
 /**
  * 테이블이 주문한 정보를 가지고 있는 클래스
  */
-public class TableBills {
+public class TableOrder {
     private String menu;
     private int price;
     private int quantity;
@@ -16,5 +18,12 @@ public class TableBills {
         return price * quantity;
     }
 
+    public int getPrice() {
+        return price;
+    }
+
+    public int getQuantity() {
+        return quantity;
+    }
 
 }
