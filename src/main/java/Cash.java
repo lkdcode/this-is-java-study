@@ -2,27 +2,37 @@ import java.util.Scanner;
 
 public class Cash extends Discount implements Pay {
     private final static int TABLE_NUMBER = 1;
-
+    Table table = DataBase.getInstance().getTableList(TABLE_NUMBER);
 /**
  * 캐쉬로 결제를 하게끔 만들어주는 메소드
  */
     @Override
     public void paypal() { //메소드 1개능 기능 1
-//        테이블 주무내역 가져오기
-        Table table = DataBase.getInstance().getTableList(TABLE_NUMBER);
+
+        getTableBills();
+        checkPriceComparison();
+        // 할인율 적용하기 -> 10개 이상 주문시 만원 할인
+        // 주문내역의 치킨 수량의 합 -> ex) n / 10 = 1 * 10,000  -> bills의 가격을 깍아준다
+    }
+
+
+    /**
+     * 테이블 주문내역 가져오는 메소드
+     */
+    public void getTableBills() {
+        //테이블 주무내역 가져오기
         TableOrder tableBills = new TableOrder();
         // 메뉴, 수량, 가격
         table.setBill();
         table.setBill();
 
+    }
 
-        // 할인율 적용하기 -> 10개 이상 주문시 만원 할인
-        // 주문내역의 치킨 수량의 합 -> ex) n / 10 = 1 * 10,000  -> bills의 가격을 깍아준다
 
-//        if (tableBills.getTotal() == table.getPrice()) {
-//
-//        }
-
+    /**
+     * 뷰어가 입력한 금액이 포스기에 입력된 금액이랑 맞는지 확인하는 메소드
+     */
+    public void checkPriceComparison() {
         // 그 값을 결제하기
         System.out.println(table.getPrice());
         //입력받은 값이  getprice랑 같냐 라는걸 물어보기
