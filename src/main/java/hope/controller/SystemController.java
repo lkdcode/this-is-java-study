@@ -1,5 +1,9 @@
 package hope.controller;
 
+import hope.UI.Message;
+import hope.data.DataBase;
+import hope.exception.ErrorMessage;
+
 import java.util.Scanner;
 
 /**
@@ -8,36 +12,41 @@ import java.util.Scanner;
 public class SystemController {
     private final OrderController orderController;
     private final PayController payController;
+    private final Scanner scanner;
 
     public SystemController() {
         this.orderController = new OrderController();
         this.payController = new PayController();
+        this.scanner = new Scanner(System.in);
+        DataBase.getInstance().initialize();
     }
 
     public void startOfBusiness() {
-        //-- enum Message 를 사용하여 아래의 메시지를 출력 --//
-        // ## 메인화면
-        // 1 - 주문등록
-        // 2 - 결제하기
-        // 3 - 프로그램 종료
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("입력 : ");
-        String inputNumber = scanner.nextLine();
+        Message.MAIN.print();
 
-        switch (inputNumber) {
-            case "1":
-                System.out.println("주문등록 메뉴 실행");
-                break;
-            case "2":
-                System.out.println("결제하기 메뉴 실행");
-                break;
-            case "3":
-                System.out.println("프로그램 종료");
-                break;
-            default:
-                System.out.println("다시 입력");
-                break;
+        while (true) {
+            Message.MENU.print();
+            Message.CHOICE_MENU.print();
+            int inputNumber = scanner.nextInt();
+            switch (inputNumber) {
+                case 1:
+                    orderController.order();
+                    break;
+                case 2:
+                    payController.payment();
+                    break;
+                case 3:
+                    if (DataBase.getInstance().isPaid()) {
+                        Message.EXIT.print();
+                        return;
+                    }
+                    ErrorMessage.ERROR_PAID.print();
+                    break;
+                case 4:
+                    System.out.println("조회");
+                    DataBase.getInstance().getTableBills();
+                    break;
+            }
         }
-
     }
 }

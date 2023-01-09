@@ -9,26 +9,30 @@ import java.util.List;
 public class Table {
     private int number;
     private List<TableOrder> tableBills;
+    private String upperShape;
+    private String middleShape;
+    private String lowerShape;
+
+    public int getNumber() {
+        return number;
+    }
+
+    public Table() {
+        this.tableBills = new ArrayList<>();
+    }
+
+    public Table(int number) {
+        this();
+        this.number = number;
+    }
+
 
     public List<TableOrder> getTableBills() {
         return tableBills;
     }
 
 
-
-    private String upperShape;
-    private String middleShape;
-    private String lowerShape;
-
-    public Table() {
-        this.tableBills = new ArrayList<>();
-        this.upperShape = "┏ - ┓";
-        this.middleShape = "| " + number + " |";
-        this.lowerShape = "┗ - ┛";
-    }
-
     public int getPrice() {
-        // 가격 * 수량만 리턴
         int price = 0;
         for (int i = 0; i < tableBills.size(); i++) {
             price += tableBills.get(i).getTotal();
@@ -40,17 +44,24 @@ public class Table {
     /**
      * 네이밍 수정
      */
-    public void setBill() {
-        TableOrder tableOrder = new TableOrder();
-        tableOrder.order("후라이드", 16000, 1);
-        this.tableBills.add(tableOrder);
+    public void order(int menuNumber, int orderQuantity) {
+        this.tableBills.add(new TableOrder(menuNumber, orderQuantity));
     }
 
-    public int getNumber() {
-        return number;
+
+    public String getUpperShape() {
+        this.upperShape = "┏ - ┓";
+        return upperShape;
     }
 
-    public void setNumber(int number) {
-        this.number = number;
+    public String getMiddleShape() {
+        this.middleShape = "| " + this.number + " |";
+        return middleShape;
     }
+
+    public String getLowerShape() {
+        this.lowerShape = "┗ - ┛";
+        return lowerShape;
+    }
+
 }

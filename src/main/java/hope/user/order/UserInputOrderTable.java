@@ -24,7 +24,6 @@ public class UserInputOrderTable implements UserInput {
         boolean isTable;
         String userInputTableNumber;
         do {
-            Message.TABLE.print();
             DataBase.getInstance().printTable();
             Message.INPUT_TABLE.print();
             userInputTableNumber = scanner.nextLine();

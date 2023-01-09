@@ -4,26 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5871f532-5d89-43dd-978d-a6446b70e74b" name="Changes" comment="🔥 결제 금액의 할인을 관리하는 클래스&#10;&#10;discount() 구현">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dress/AsciiCharacter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dress/DressType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dress/DressingGameMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dress/MenuType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exam/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exam/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hope/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="5871f532-5d89-43dd-978d-a6446b70e74b" name="Changes" comment="📝 README 문서&#10;&#10;로직 수정">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/READMEhope.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/READMEhope.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hope/user/pay/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DataBase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hope/user/pay/Pay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UserInputMenu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UserInputOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hope/user/order/UserInputOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UserInputTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hope/user/order/UserInputTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UserInputTableValidate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hope/user/order/UserInputTableValidate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hope/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hope/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hope/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hope/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hope/controller/PayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hope/controller/PayController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hope/controller/SystemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hope/controller/SystemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hope/data/DataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hope/data/DataBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hope/data/Menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hope/data/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hope/data/Table.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hope/data/TableOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hope/data/TableOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hope/user/menu/UserInputMainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hope/user/menu/UserInputMainMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hope/user/order/UserInputMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hope/user/order/UserInputOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hope/user/order/UserInputOrderTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hope/user/order/UserInputOrderTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hope/user/order/UserInputTableValidate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hope/user/pay/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hope/user/pay/Card.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,11 +34,28 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="this-is-java-study" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -70,11 +83,17 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="hope.user.order.validate" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\lkd\IdeaProjects\this-is-java-study\src\main\java\dress" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="hope.user" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Application">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hope.Application" />
       <module name="this-is-java-study.main" />
@@ -115,10 +134,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="problem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hope.problem" />
+      <module name="this-is-java-study.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hope.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Application" />
+        <item itemvalue="Application.problem" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.DressingGameMain" />
       </list>
     </recent_temporary>
@@ -335,7 +368,91 @@
       <option name="project" value="LOCAL" />
       <updated>1673177059287</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="🔥 test commit">
+      <created>1673187198016</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1673187198016</updated>
+    </task>
+    <task id="LOCAL-00031" summary="🔥 유저로부터 메뉴 주문을 입력받는 클래스&#10;&#10;구현 완료">
+      <created>1673233495631</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1673233495631</updated>
+    </task>
+    <task id="LOCAL-00032" summary="🔥 유저로부터 메뉴 주문을 입력받은 값을 검증하는 클래스&#10;&#10;구현 완료">
+      <created>1673233521327</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1673233521327</updated>
+    </task>
+    <task id="LOCAL-00033" summary="🔥 유저로부터 주문할 매뉴의 수량을 입력받는 클래스&#10;&#10;구현 완료">
+      <created>1673233542781</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1673233542781</updated>
+    </task>
+    <task id="LOCAL-00034" summary="🔥 유저로부터 입력받은 주문할 매뉴의 수량의 값을 검증하는 클래스&#10;&#10;구현 완료">
+      <created>1673233578836</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1673233578836</updated>
+    </task>
+    <task id="LOCAL-00035" summary="🔥 유저가 주문을 할 때 테이블 넘버를 입력받는 클래스&#10;&#10;구현 완료">
+      <created>1673233606575</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1673233606575</updated>
+    </task>
+    <task id="LOCAL-00036" summary="🔥 유저가 주문을 할 때 입력받은 테이블 넘버 값을 검증하는 클래스&#10;&#10;구현 완료">
+      <created>1673233629366</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1673233629366</updated>
+    </task>
+    <task id="LOCAL-00037" summary="🔥 주문등록 매뉴를 관리하는 클래스&#10;&#10;구현 완료">
+      <created>1673233667817</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1673233667817</updated>
+    </task>
+    <task id="LOCAL-00038" summary="🔥 유저로 부터 입력받는 역할의 인터페이스&#10;&#10;리턴 값 int 로 변경">
+      <created>1673233707134</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1673233707134</updated>
+    </task>
+    <task id="LOCAL-00039" summary="🔥 유저에게 보여줄 에러 메시지 이넘 클래스">
+      <created>1673247252169</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1673247252169</updated>
+    </task>
+    <task id="LOCAL-00040" summary="🔥 유저에게 보여줄 메시지 이넘 클래스">
+      <created>1673247262985</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1673247262985</updated>
+    </task>
+    <task id="LOCAL-00041" summary="📝 README 문서&#10;&#10;로직 수정">
+      <created>1673247656732</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1673247656732</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -350,18 +467,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="✨ 데이터 베이스&#10;&#10;initial commit" />
-    <MESSAGE value="✨ 결제 인터페이스&#10;&#10;initial commit" />
-    <MESSAGE value="✨ 테이블 정보를 가지고 있는 클래스&#10;&#10;initial commit" />
-    <MESSAGE value="✨ 테이블이 주문한 정보를 가지고 있는 클래스&#10;&#10;initial commit" />
-    <MESSAGE value="✨ 유저로부터 입력받는 기능의 인터페이스&#10;&#10;initial commit" />
-    <MESSAGE value="✨ 유저가 매뉴를 선택할 때 입력받는 클래스&#10;&#10;initial commit" />
-    <MESSAGE value="✨ 유저가 테이블을 선택할 때 입력받는 클래스&#10;&#10;initial commit" />
-    <MESSAGE value="✨ 유저가 테이블을 선택할 때 입력한 값을 검증하는 클래스&#10;&#10;initial commit" />
-    <MESSAGE value="✨ 결제금액의 할인을 관리하는 클래스&#10;&#10;initial commit" />
-    <MESSAGE value="✨ 에러 메시지를 관리하는 클래스&#10;&#10;initial commit" />
-    <MESSAGE value="✨ 판매되는 메뉴를 관리하는 클래스&#10;&#10;initial commit" />
-    <MESSAGE value="✨ 메시지를 관리하는 클래스&#10;&#10;initial commit" />
     <MESSAGE value="✨ 주문등록 메뉴를 관리하는 클래스&#10;&#10;initial commit" />
     <MESSAGE value="✨ 유저에게 테이블 목록을 보여주는 클래스&#10;&#10;initial commit" />
     <MESSAGE value="✨ 결제하기를 관리하는 클래스&#10;&#10;initial commit" />
@@ -375,7 +480,19 @@
     <MESSAGE value=" 테이블이 주문한 정보를 가지고 있는 클래스&#10;&#10;클래스명 변경 TableBills -&gt; TableOrder&#10;getPrice(), getQuantity() 추가" />
     <MESSAGE value=" 데이터 베이스&#10;&#10;getBills() 추가. 10마리당 10,000원이 할인 되는 메소드" />
     <MESSAGE value=" 결제 금액의 할인을 관리하는 클래스&#10;&#10;discount() 구현" />
-    <option name="LAST_COMMIT_MESSAGE" value=" 결제 금액의 할인을 관리하는 클래스&#10;&#10;discount() 구현" />
+    <MESSAGE value=" test commit" />
+    <MESSAGE value=" 유저로부터 메뉴 주문을 입력받는 클래스&#10;&#10;구현 완료" />
+    <MESSAGE value=" 유저로부터 메뉴 주문을 입력받은 값을 검증하는 클래스&#10;&#10;구현 완료" />
+    <MESSAGE value=" 유저로부터 주문할 매뉴의 수량을 입력받는 클래스&#10;&#10;구현 완료" />
+    <MESSAGE value=" 유저로부터 입력받은 주문할 매뉴의 수량의 값을 검증하는 클래스&#10;&#10;구현 완료" />
+    <MESSAGE value=" 유저가 주문을 할 때 테이블 넘버를 입력받는 클래스&#10;&#10;구현 완료" />
+    <MESSAGE value=" 유저가 주문을 할 때 입력받은 테이블 넘버 값을 검증하는 클래스&#10;&#10;구현 완료" />
+    <MESSAGE value=" 주문등록 매뉴를 관리하는 클래스&#10;&#10;구현 완료" />
+    <MESSAGE value=" 유저로 부터 입력받는 역할의 인터페이스&#10;&#10;리턴 값 int 로 변경" />
+    <MESSAGE value=" 유저에게 보여줄 에러 메시지 이넘 클래스" />
+    <MESSAGE value=" 유저에게 보여줄 메시지 이넘 클래스" />
+    <MESSAGE value=" README 문서&#10;&#10;로직 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value=" README 문서&#10;&#10;로직 수정" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

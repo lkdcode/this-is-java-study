@@ -12,22 +12,10 @@ public class Card extends Discount implements Pay {
      */
     @Override
     public void paypal() {
-
-        // 테이블의 주문내역을 가져오기
         int tableNumber = 1;
         Table table = DataBase.getInstance().getTable(tableNumber);
 
-        // userInpu 을 통해서 생성;
-        table.setBill();
-        table.setBill();
-
-        // 매뉴 , 수량 , 가격
-
-        // 할인을 적용하기
-        // 주문내역의 치킨 수량을 취합 -> ( n / 10 ) * 10000  => bills 가격을
-
-
-        // 그 값을 결제하기
+        int totalPrice = discount();
         Scanner scanner = new Scanner(System.in);
         int userPay;
         System.out.println("총 결제 금액 : " + table.getPrice());

@@ -9,8 +9,8 @@ public class UserInputMainMenu implements UserInput {
 
 
     @Override
-    public String userInput() {
-        return null;
+    public int userInput() {
+        return 0;
     }
 
 }
