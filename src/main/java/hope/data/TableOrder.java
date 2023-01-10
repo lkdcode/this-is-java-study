@@ -41,28 +41,28 @@ public class TableOrder {
 
         switch (menuNumber) {
             case 1:
-                menu = "후라이드";
+                menu = "🍗 후라이드";
                 break;
             case 2:
-                menu = "양념치킨";
+                menu = "🍗 양념치킨";
                 break;
             case 3:
-                menu = "반반치킨";
+                menu = "🍗 반반치킨";
                 break;
             case 4:
-                menu = "통구이";
+                menu = "🍗 통구이";
                 break;
             case 5:
-                menu = "강장치킨";
+                menu = "🍗 간장치킨";
                 break;
             case 6:
-                menu = "순살치킨";
+                menu = "🍗 순살치킨";
                 break;
             case 21:
-                menu = "콜라";
+                menu = "🥤 콜라";
                 break;
             case 22:
-                menu = "사이다";
+                menu = "🧃 사이다";
                 break;
         }
         return menu;
