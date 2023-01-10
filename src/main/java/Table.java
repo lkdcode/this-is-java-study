@@ -3,7 +3,7 @@ import java.util.List;
 
 public class Table {
     private int number;
-    private List<TableBills> tableBills;
+    private List<TableOrder> tableBills;
     private String menu;
     private  int price;
     private int quantity;
@@ -21,8 +21,15 @@ public class Table {
         return price;
     }
 
+    public List<TableOrder> getTableBills() {
+        return tableBills;
+    }
+
+    /**
+     * 주문 한개당 해당 테이블이 얼마나 먹었는지 계산해주는 메소드
+     */
     public void setBill() {
-        TableBills tableOrder = new TableBills();
+        TableOrder tableOrder = new TableOrder();
         tableOrder.order("후라이드", 16000, 1);
         this.tableBills.add(tableOrder);
     }
@@ -41,7 +48,7 @@ public class Table {
         this.tableBills = new ArrayList<>();
 
         this.upperShape = "┏ - ┓";
-        this.middleShape ="| "+ number +" |";
+        this.middleShape ="| "+ this.number +" |";
         this.lowerShape = "┗ - ┛";
     }
 }
