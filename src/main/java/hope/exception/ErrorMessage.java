@@ -9,6 +9,8 @@ public enum ErrorMessage {
     ERROR_INPUT_NUMBER("## [ERROR] 숫자만 입력해주세요.%n"),
 
     ERROR_INPUT_MENU_QUANTITY("## [ERROR] 총 주문 수량은 최대 99개 입니다.%n"),
+    ERROR_INPUT_PAYMENT("%n## [ERROR] 신용 카드는 1번 현금 결제는 2번을 입력해주세요.%n"),
+
     ERROR_PAID("%n## [ERROR] 미결제건이 존재합니다.%n%n");
 
     private final String message;
