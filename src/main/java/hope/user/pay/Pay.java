@@ -2,5 +2,5 @@ package hope.user.pay;
 
 public interface Pay {
 
-    void paypal();
+    void paypal(int userTableNumber);
 }
