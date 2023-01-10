@@ -1,6 +1,7 @@
 package hope.user.order.validate;
 
 import hope.exception.ErrorMessage;
+import hope.user.UserInputTableNumberValidate;
 
 public class UserInputOrderQuantityValidate extends UserInputTableNumberValidate {
     private final int MIN_ORDER = 1;
