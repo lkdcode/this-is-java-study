@@ -1,6 +1,7 @@
 package hope.user.order.validate;
 
 import hope.exception.ErrorMessage;
+import hope.user.UserInputTableNumberValidate;
 
 public class UserInputOrderMenuNumberValidate extends UserInputTableNumberValidate {
     private final String MENU = "^[1-6]*$";
