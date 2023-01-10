@@ -1,22 +1,20 @@
-package hope.user.order;
+package hope.user;
 
 import hope.UI.Message;
 import hope.data.DataBase;
-import hope.user.UserInput;
-import hope.user.order.validate.UserInputTableNumberValidate;
 
 import java.util.Scanner;
 
 /**
- * 유저가 테이블 넘버를 입력받는 클래스
+ * 유저로부터 테이블 넘버를 입력받는 클래스
  */
-public class UserInputOrderTable implements UserInput {
+public class UserInputTableNumber implements UserInput {
     private final Scanner scanner;
-    private final UserInputTableNumberValidate userInputTableValidate;
+    private final UserInputTableNumberValidate userInputTableNumberValidate;
 
-    public UserInputOrderTable() {
+    public UserInputTableNumber() {
         this.scanner = new Scanner(System.in);
-        this.userInputTableValidate = new UserInputTableNumberValidate();
+        this.userInputTableNumberValidate = new UserInputTableNumberValidate();
     }
 
     @Override
@@ -27,7 +25,7 @@ public class UserInputOrderTable implements UserInput {
             DataBase.getInstance().printTable();
             Message.INPUT_TABLE.print();
             userInputTableNumber = scanner.nextLine();
-            isTable = userInputTableValidate.userInputValidate(userInputTableNumber);
+            isTable = userInputTableNumberValidate.userInputValidate(userInputTableNumber);
         } while (!isTable);
 
         return Integer.parseInt(userInputTableNumber);
