@@ -1,10 +1,10 @@
-package hope.user.order.validate;
+package hope.user;
 
 
 import hope.exception.ErrorMessage;
 
 /**
- * 유저가 테이블을 선택할 때 입력한 값을 검증하는 클래스
+ * 유저로부터 입력받은 테이블 넘버를 검증하는 클래스
  */
 
 public class UserInputTableNumberValidate {
