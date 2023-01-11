@@ -32,3 +32,4 @@ public class Cash implements Pay {
         DataBase.getInstance().paid(userTableNumber);
     }
 }
+

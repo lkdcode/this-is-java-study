@@ -1,4 +1,4 @@
-package exam;
+package exam.enumex;
 
 public enum Message {
     HELLO("안녕하세요");
