@@ -5,8 +5,8 @@ package hope.UI;
  */
 public enum Message {
     MAIN("## 메인화면%n"),
-    MENU("1 - 주문등록%n2 - 결제하기%n3 - 프로그램 종료%n"),
-    CHOICE_MENU("%n## 원하는 기능을 선택하세요.%n"),
+    MENU("%n1 - 주문등록%n2 - 결제하기%n3 - 프로그램 종료%n4 - 미결제건 전체 조회"),
+    CHOICE_MENU("%n%n## 원하는 기능을 선택하세요.%n"),
     TABLE("%n## 테이블 목록%n"),
     INPUT_TABLE("%n## 테이블을 선택하세요.%n"),
     INPUT_MENU("%n## 등록할 메뉴를 선택하세요.%n"),

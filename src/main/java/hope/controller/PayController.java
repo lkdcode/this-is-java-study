@@ -34,12 +34,15 @@ public class PayController {
 
         System.out.println();
         System.out.println("## " + userTableNumber + "번 테이블의 결제를 진행합니다.");
+
         if (userPayment == 1) {
             pay = new Card();
         }
+
         if (userPayment == 2) {
             pay = new Cash();
         }
+
         pay.paypal(userTableNumber);
         Message.PAID.print();
     }

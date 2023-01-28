@@ -63,19 +63,21 @@ public class DataBase {
     }
 
     public void getTableBillsTotal() {
-        for (int i = 0; i < tableList.size(); i++) {
-            List<TableOrder> tableBills = tableList.get(i).getTableBills();
+        for (int i = 0; i < this.tableList.size(); i++) {
+            List<TableOrder> tableBills = this.tableList.get(i).getTableBills();
             for (int j = 0; j < tableBills.size(); j++) {
-                System.out.println(tableBills.get(j).getMenuName() + "\t\t\t"
-                        + tableBills.get(j).getPrice() + "원\t\t\t"
-                        + tableBills.get(j).getQuantity() + ">>" + j);
+                System.out.println(
+                        "## 테이블 번호 : " + i + "\t"
+                                + tableBills.get(j).getMenuName() + "\t\t\t"
+                                + tableBills.get(j).getPrice() + "원\t\t\t"
+                                + tableBills.get(j).getQuantity() + "개\t");
             }
         }
     }
 
     public boolean isPaid() {
-        for (int i = 0; i < tableList.size(); i++) {
-            if (tableList.get(i).getTableBills().size() >= 1) {
+        for (int i = 0; i < this.tableList.size(); i++) {
+            if (this.tableList.get(i).getTableBills().size() >= 1) {
                 return false;
             }
         }
@@ -87,7 +89,7 @@ public class DataBase {
     }
 
     public void order(int tableNumber, int menuNumber, int orderQuantity) {
-        tableList.get(tableNumber).order(menuNumber, orderQuantity);
+        this.tableList.get(tableNumber).order(menuNumber, orderQuantity);
     }
 
     public void printTable() {
@@ -95,11 +97,12 @@ public class DataBase {
         StringBuilder middleShape = new StringBuilder();
         StringBuilder lowerShape = new StringBuilder();
 
-        for (int i = 1; i < tableList.size(); i++) {
-            upperShape.append(tableList.get(i).getUpperShape());
-            middleShape.append(tableList.get(i).getMiddleShape());
-            lowerShape.append(tableList.get(i).getLowerShape());
+        for (int i = 1; i < this.tableList.size(); i++) {
+            upperShape.append(this.tableList.get(i).getUpperShape());
+            middleShape.append(this.tableList.get(i).getMiddleShape());
+            lowerShape.append(this.tableList.get(i).getLowerShape());
         }
+
         Message.TABLE.print();
         System.out.println(upperShape);
         System.out.println(middleShape);

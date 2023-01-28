@@ -43,9 +43,10 @@ public class SystemController {
                     ErrorMessage.ERROR_PAID.print();
                     break;
                 case 4:
-                    System.out.println("전체 조회");
                     DataBase.getInstance().getTableBillsTotal();
                     break;
+                default:
+                    ErrorMessage.ERROR_MAIN.print();
             }
         }
     }

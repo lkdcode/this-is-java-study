@@ -4,48 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5871f532-5d89-43dd-978d-a6446b70e74b" name="Changes" comment="📝 README.md">
-      <change afterPath="$PROJECT_DIR$/.idea/packagesearch.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/READMEPOKE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/READMEpp.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exam/exceptionex/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exam/exceptionex/MainEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exam/exceptionex/UserException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pokemon/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pokemon/inventory/Inventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pokemon/item/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pokemon/item/ball/Ball.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pokemon/item/ball/HyperBall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pokemon/item/ball/MasterBall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pokemon/item/ball/MonsterBall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pokemon/item/ball/SuperBall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pokemon/item/potion/Elixir.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pokemon/item/potion/Potion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pokemon/item/potion/PowerElixir.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pokemon/life/player/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pokemon/life/pokemon/Chicorita.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pokemon/life/pokemon/Ggobugi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pokemon/life/pokemon/Ggomadol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pokemon/life/pokemon/Gorapaduk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pokemon/life/pokemon/Jammanbo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pokemon/life/pokemon/Peezon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pokemon/life/pokemon/Pikachu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pokemon/life/pokemon/Pokemon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pokemon/life/pokemon/Poorin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pokemon/life/pokemon/Pyree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pokemon/life/pokemon/Skill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pokemon/life/pokemon/Type.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pokemon/life/pokemon/Yeesanghaesee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pokemon/service/PlayerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pokemon/service/PlayerServiceLogic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pokemon/shop/Shop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pokemon/ui/UserConsole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pokemon/ui/UserMenu.java" afterDir="false" />
+    <list default="true" id="5871f532-5d89-43dd-978d-a6446b70e74b" name="Changes" comment="change repository">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cafe/Cafe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cafe/CafeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cafe/Coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/elite/Calc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/elite/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/month/Months.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/month/MonthsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/problem12/Harrypotter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/problem12/PhoneBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/problem12/Test54.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/problem12/Test55.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/problem12/Test56.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/problem13/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/problem13/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/problem13/ScoreMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/problem13/ScoreTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/problem13/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/problem13/ShapeMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/student/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/student/StudentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/CharTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exam/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exam/enumex/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exam/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exam/enumex/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hope/user/pay/Cash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hope/user/pay/Cash.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hope/UI/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hope/UI/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hope/controller/PayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hope/controller/PayController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hope/controller/SystemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hope/controller/SystemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hope/data/DataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hope/data/DataBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hope/exception/ErrorMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hope/exception/ErrorMessage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,16 +89,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/kiducklee/IdeaProjects/this-is-java-study/docs&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/kiducklee/IdeaProjects/this-is-java-study/docs",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="hope.user.order.validate" />
@@ -126,11 +112,12 @@
       <recent name="C:\Users\lkd\IdeaProjects\this-is-java-study\src\main\java\dress" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.problem13" />
       <recent name="hope.user.pay" />
       <recent name="hope.user" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Application">
+  <component name="RunManager" selected="Application.ShapeMain">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hope.Application" />
       <module name="this-is-java-study.main" />
@@ -138,26 +125,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hope.Application" />
+    <configuration name="CharTest" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.CharTest" />
       <module name="this-is-java-study.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pokemon.Main" />
-      <module name="this-is-java-study.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exam.exceptionex.MainEx" />
-      <module name="this-is-java-study.main" />
+      <option name="PROGRAM_PARAMETERS" value="JavaProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exam.exceptionex.*" />
+          <option name="PATTERN" value="com.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,12 +139,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="exam.exceptionex.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exam.exceptionex.Main" />
+    <configuration name="MonthsTest" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.month.MonthsTest" />
       <module name="this-is-java-study.main" />
+      <option name="PROGRAM_PARAMETERS" value="4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exam.exceptionex.*" />
+          <option name="PATTERN" value="com.month.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,12 +153,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="problem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hope.problem" />
+    <configuration name="ScoreMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.problem13.ScoreMain" />
       <module name="this-is-java-study.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hope.*" />
+          <option name="PATTERN" value="com.problem13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShapeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.problem13.ShapeMain" />
+      <module name="this-is-java-study.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.problem13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test54" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.problem12.Test54" />
+      <module name="this-is-java-study.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.problem12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test55" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.problem12.Test55" />
+      <module name="this-is-java-study.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.problem12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test56" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.problem12.Test56" />
+      <module name="this-is-java-study.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.problem12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,10 +220,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainEx" />
-        <item itemvalue="Application.exam.exceptionex.Main" />
-        <item itemvalue="Application.Application" />
-        <item itemvalue="Application.problem" />
+        <item itemvalue="Application.ShapeMain" />
+        <item itemvalue="Application.ScoreMain" />
+        <item itemvalue="Application.Test56" />
+        <item itemvalue="Application.Test55" />
+        <item itemvalue="Application.Test54" />
       </list>
     </recent_temporary>
   </component>
@@ -208,13 +236,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672722254431</updated>
-    </task>
-    <task id="LOCAL-00013" summary="✨ 결제금액의 할인을 관리하는 클래스&#10;&#10;initial commit">
-      <created>1673150176641</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1673150176641</updated>
     </task>
     <task id="LOCAL-00014" summary="✨ 에러 메시지를 관리하는 클래스&#10;&#10;initial commit">
       <created>1673150190344</created>
@@ -552,7 +573,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673338419595</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="change repository">
+      <created>1673443495702</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1673443495702</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -568,7 +596,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value=" 유저가 주문을 할 때 입력받은 테이블 넘버 값을 검증하는 클래스&#10;&#10;구현 완료" />
     <MESSAGE value=" 주문등록 매뉴를 관리하는 클래스&#10;&#10;구현 완료" />
     <MESSAGE value=" 유저로 부터 입력받는 역할의 인터페이스&#10;&#10;리턴 값 int 로 변경" />
     <MESSAGE value=" 유저에게 보여줄 에러 메시지 이넘 클래스" />
@@ -593,7 +620,8 @@
     <MESSAGE value=" 유저로부터 입력받은 테이블 넘버를 검증하는 클래스&#10;&#10;클래스명 변경" />
     <MESSAGE value=" READMEex.md" />
     <MESSAGE value=" README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value=" README.md" />
+    <MESSAGE value="change repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="change repository" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
