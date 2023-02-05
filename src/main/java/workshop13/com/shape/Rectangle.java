@@ -31,8 +31,6 @@ public class Rectangle extends Shape implements Movable {
         return "Rectangle\t"
                 + this.width + "\t\t"
                 + super.getPoint().getX() + "\t\t"
-                + super.getPoint().getY() + "\t\t\t"
-                + Math.round(getArea()) + "\t\t\t"
-                + Math.round(getCircumference());
+                + super.getPoint().getY() + "\t\t\t";
     }
 }

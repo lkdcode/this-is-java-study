@@ -33,8 +33,6 @@ public class Circle extends Shape implements Movable {
         return "Circle\t\t"
                 + this.radius + "\t\t"
                 + super.getPoint().getX() + "\t\t"
-                + super.getPoint().getY() + "\t\t\t"
-                + Math.round(getArea()) + "\t\t\t"
-                + Math.round(getCircumference());
+                + super.getPoint().getY() + "\t\t\t";
     }
 }

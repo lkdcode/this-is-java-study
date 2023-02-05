@@ -8,7 +8,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/workshop13/com/shape/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/workshop13/com/shape/Circle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/workshop13/com/shape/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/workshop13/com/shape/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/workshop13/com/shape/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/workshop13/com/shape/Shape.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/workshop13/com/shape/ShapeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/workshop13/com/shape/ShapeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -281,13 +280,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672722254431</updated>
-    </task>
-    <task id="LOCAL-00019" summary="✨ 결제하기를 관리하는 클래스&#10;&#10;initial commit">
-      <created>1673150254294</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1673150254294</updated>
     </task>
     <task id="LOCAL-00020" summary="✨ 결제 실패 익셉션&#10;&#10;initial commit">
       <created>1673150271581</created>
@@ -625,7 +617,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675595178382</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="Initial commit">
+      <created>1675599471212</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1675599471212</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
