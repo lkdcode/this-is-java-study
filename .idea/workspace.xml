@@ -5,31 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5871f532-5d89-43dd-978d-a6446b70e74b" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/workshop11/vehicle/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/workshop11/vehicle/Truck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/workshop11/vehicle/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/workshop11/vehicle/VehicleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/workshop12/workshop/acc/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/workshop12/workshop/acc/AccountTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/workshop12/workshop/calc/CalcTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/workshop12/workshop/calc/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/workshop12/workshop/date/ConvertDate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/workshop12/workshop/date/DateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/workshop12/workshop/string/StringTest01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/workshop12/workshop/string2/ConvertString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/workshop12/workshop/string2/StringTest02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/workshop12/workshop/stringbuffer/StringBufferTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/workshop12/workshop/token/StringTokenTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/workshop13/com/elite/ListTest03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/workshop13/com/elite/SetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/workshop13/com/list01/ListTest01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/workshop13/com/list01/MakeList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/workshop13/com/list02/ConvertList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/workshop13/com/list02/ListTest02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/workshop13/com/ship/Boat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/workshop13/com/ship/Cruise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/workshop13/com/ship/Ship.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/workshop13/com/ship/ShipTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/workshop13/com/elite/ListHashSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -120,7 +96,7 @@
       <recent name="hope.user" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ListTest03">
+  <component name="RunManager" selected="Application.ListHashSet">
     <configuration name="CalcTest" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="workshop12.workshop.calc.CalcTest" />
       <module name="this-is-java-study.main" />
@@ -156,6 +132,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="workshop12.workshop.date.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListHashSet" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="workshop13.com.elite.ListHashSet" />
+      <module name="this-is-java-study.main" />
+      <option name="PROGRAM_PARAMETERS" value="10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="workshop13.com.elite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -288,13 +278,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672722254431</updated>
-    </task>
-    <task id="LOCAL-00016" summary="✨ 메시지를 관리하는 클래스&#10;&#10;initial commit">
-      <created>1673150220452</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1673150220452</updated>
     </task>
     <task id="LOCAL-00017" summary="✨ 주문등록 메뉴를 관리하는 클래스&#10;&#10;initial commit">
       <created>1673150229911</created>
@@ -632,7 +615,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675062443172</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Initial commit">
+      <created>1675593008890</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1675593008890</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
