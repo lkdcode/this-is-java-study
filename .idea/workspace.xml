@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5871f532-5d89-43dd-978d-a6446b70e74b" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/workshop13/com/mobile/MapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/workshop13/com/mobile/Mobile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/workshop13/com/shape/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/workshop13/com/shape/Movable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/workshop13/com/shape/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/workshop13/com/shape/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/workshop13/com/shape/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/workshop13/com/shape/ShapeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/workshop13/com/shape/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/workshop13/com/shape/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/workshop13/com/shape/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/workshop13/com/shape/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/workshop13/com/shape/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/workshop13/com/shape/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/workshop13/com/shape/ShapeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/workshop13/com/shape/ShapeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -285,13 +281,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672722254431</updated>
-    </task>
-    <task id="LOCAL-00018" summary="✨ 유저에게 테이블 목록을 보여주는 클래스&#10;&#10;initial commit">
-      <created>1673150242153</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1673150242153</updated>
     </task>
     <task id="LOCAL-00019" summary="✨ 결제하기를 관리하는 클래스&#10;&#10;initial commit">
       <created>1673150254294</created>
@@ -629,7 +618,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675593288102</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Initial commit">
+      <created>1675595178382</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1675595178382</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -11,10 +11,12 @@ public abstract class Shape {
     }
 
     public double getArea() {
-        return 0;
+        // 도형의 넓이
+        return this.point.getX() + this.point.getY();
     }
 
     public double getCircumference() {
+        // 도형의 둘레
         return 0;
     }
 
