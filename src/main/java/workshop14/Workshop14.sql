@@ -1,4 +1,4 @@
---¹®Á¦1   (3°Ç)
+--ï¿½ï¿½ï¿½ï¿½1   (3ï¿½ï¿½)
 select pdname, pdsubname,facname,STONAME,nvl(STAMOUNT,0) 
 from PRODUCT join FACTORY using(FACTNO) 
 join STORE using(PDNO) 
@@ -6,25 +6,47 @@ where FACLOC='SEOUL'
          and (STAMOUNT is null or STAMOUNT=0);
 
 
---¹®Á¦2  (4°Ç)
+--ï¿½ï¿½ï¿½ï¿½2  (4ï¿½ï¿½)
 select PDSUBNAME, PDCOST, PDPRICE 
 from PRODUCT 
 where pdcost > any (select pdcost from product where pdname='TV') 
                             and pdcost < any (select pdcost from PRODUCT 
                             where pdname='CELLPHONE') order by pdcost)
 
---¹®Á¦3
+--ï¿½ï¿½ï¿½ï¿½3
 insert into DISCARDED_PRODUCT (select PDNO,PDNAME,PDSUBNAME,FACTNO,PDDATE,PDCOST,PDPRICE,PDAMOUNT,sysdate 
 from PRODUCT
 where FACTNO in(select FACTNO
                         from FACTORY 
                         where FACLOC='CHANGWON'));
---¹®Á¦4
+--ï¿½ï¿½ï¿½ï¿½4
 delete from PRODUCT 
 where pdno in (select pdno from DISCARDED_PRODUCT);
 
 
 
 
+------------------- Test 01 sql
+select PDNAME"ì œí’ˆì¹´í…Œê³ ë¦¬", PDSUBNAME"ì œí’ˆëª…",
+       FACNAME"ê³µìž¥ëª…", STONAME"íŒë§¤ì ëª…", nvl(STAMOUNT,0)"íŒë§¤ì ìž¬ê³ ìˆ˜ëŸ‰"
+from PRODUCT
+join FACTORY using(FACTNO)
+join STORE using(PDNO)
+where FACNAME = 'SEOUL FACTORY' and (STAMOUNT is null or STAMOUNT = 0);
 
 
+select * from PRODUCT;
+
+
+select * from FACTORY;
+
+
+select PDNAME, PDSUBNAME, FACNAME, STONAME, nvl(STAMOUNT, 0)
+from PRODUCT
+join FACTORY using(FACTNO)
+join STORE using(PDNO)
+where FACNAME='SEOUL FACTORY' and (STAMOUNT is null or STAMOUNT = 0)
+order by PDNAME;
+
+
+------------------- Test 02 sql
