@@ -5,13 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5871f532-5d89-43dd-978d-a6446b70e74b" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/workshop14/Pool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/workshop14/workshop/Test04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/workshop14/workshop/Test05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/css/css35_div.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lion/CharacterFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lion/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lion/character/Character.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lion/character/job/Warrior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lion/character/job/Wizard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lion/character/weapon/Bow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lion/character/weapon/FireWand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lion/character/weapon/IceWand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lion/character/weapon/Sword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lion/character/weapon/Weapon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/workshop14/Workshop14.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/workshop14/Workshop14.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/workshop14/Workshop14_Script.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/workshop14/Workshop14_Script.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/workshop14/workshop/Test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/workshop14/workshop/Test01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/factory/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designpattern/factory/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/factory/CatToy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designpattern/factory/CatToy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/factory/FactoryMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designpattern/factory/FactoryMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/workshop14/Workshop14.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/workshop14/Workshop14.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/workshop14/workshop/Test02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/workshop14/workshop/Test02.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,8 +58,8 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -71,23 +80,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "/Users/kiducklee/IdeaProjects/this-is-java-study/docs",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/kiducklee/IdeaProjects/this-is-java-study/docs&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="workshop14.workshop" />
+      <recent name="designpattern" />
+      <recent name="lion" />
       <recent name="hope.user.order.validate" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -106,7 +118,7 @@
       <recent name="hope.user" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Test02">
     <configuration name="CalcTest" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="workshop12.workshop.calc.CalcTest" />
       <module name="this-is-java-study.main" />
@@ -149,6 +161,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FactoryMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpattern.factory.FactoryMain" />
+      <module name="this-is-java-study.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="designpattern.factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ListHashSet" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="workshop13.com.elite.ListHashSet" />
       <module name="this-is-java-study.main" />
@@ -177,38 +202,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListTest03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="workshop13.com.elite.ListTest03" />
-      <module name="this-is-java-study.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="workshop13.com.elite.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="workshop14.Main" />
       <module name="this-is-java-study.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="workshop14.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="workshop13.com.mobile.MapTest" />
-      <module name="this-is-java-study.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="workshop13.com.mobile.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -244,12 +243,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShapeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="workshop13.com.shape.ShapeTest" />
+    <configuration name="Test01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="workshop14.workshop.Test01" />
       <module name="this-is-java-study.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="workshop13.com.shape.*" />
+          <option name="PATTERN" value="workshop14.workshop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -257,12 +256,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShipTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="workshop13.com.ship.ShipTest" />
+    <configuration name="Test02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="workshop14.workshop.Test02" />
       <module name="this-is-java-study.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="workshop13.com.ship.*" />
+          <option name="PATTERN" value="workshop14.workshop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lion.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lion.Main" />
+      <module name="this-is-java-study.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lion.weapon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -272,11 +284,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test02" />
+        <item itemvalue="Application.FactoryMain" />
+        <item itemvalue="Application.Test01" />
+        <item itemvalue="Application.lion.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.ShapeTest" />
-        <item itemvalue="Application.MapTest" />
-        <item itemvalue="Application.ListTest03" />
-        <item itemvalue="Application.ShipTest" />
       </list>
     </recent_temporary>
   </component>
@@ -288,41 +300,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672722254431</updated>
-    </task>
-    <task id="LOCAL-00022" summary="✨ 유저로부터 메인 메뉴를 입력받는 클래스&#10;&#10;initial commit">
-      <created>1673150310121</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1673150310121</updated>
-    </task>
-    <task id="LOCAL-00023" summary="✨ 유저로부터 메뉴 주문을 입력받는 클래스&#10;&#10;initial commit">
-      <created>1673150339435</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1673150339435</updated>
-    </task>
-    <task id="LOCAL-00024" summary="✨ 커밋&#10;&#10;initial commit">
-      <created>1673165069760</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1673165069760</updated>
-    </task>
-    <task id="LOCAL-00025" summary="✨ 메인 컨트롤러&#10;&#10;주석 참고하여 startOfBusiness 를 구현. (void)">
-      <created>1673176852945</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1673176852945</updated>
-    </task>
-    <task id="LOCAL-00026" summary="✨ 테이블 정보를 가지고 있는 클래스&#10;&#10;getTableBills() 추가">
-      <created>1673176902470</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1673176902470</updated>
     </task>
     <task id="LOCAL-00027" summary="🔥 테이블이 주문한 정보를 가지고 있는 클래스&#10;&#10;클래스명 변경 TableBills -&gt; TableOrder&#10;getPrice(), getQuantity() 추가">
       <created>1673176958254</created>
@@ -632,7 +609,42 @@
       <option name="project" value="LOCAL" />
       <updated>1675611445901</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="Initial commit">
+      <created>1675728569112</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1675728569112</updated>
+    </task>
+    <task id="LOCAL-00072" summary="Initial commit">
+      <created>1675859326498</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1675859326498</updated>
+    </task>
+    <task id="LOCAL-00073" summary="Initial commit">
+      <created>1675868363020</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1675868363020</updated>
+    </task>
+    <task id="LOCAL-00074" summary="Initial commit">
+      <created>1675868372675</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1675868372675</updated>
+    </task>
+    <task id="LOCAL-00075" summary="Initial commit">
+      <created>1675953624164</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1675953624164</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
