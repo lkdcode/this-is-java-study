@@ -1,5 +1,12 @@
 package workshop14.workshop;
 
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import static workshop14.Pool.*;
+
 public class Test02 {
     /**
      * 제품 카테고리가 "TV"인 제품 중 가장 싼 것보다 비싼 모든 제품과,
@@ -12,9 +19,42 @@ public class Test02 {
      * @param args
      */
     public static void main(String[] args) {
-        System.out.println("hello world!");
+
+        System.out.println("제품명\t\t\t제품원가\t\t\t제품가격");
+        System.out.println("----------+-----------------+-------------");
 
 
+        Connection conn = getConnection();
+        PreparedStatement pstmt = null;
+        ResultSet resultSet = null;
+
+        String sql = "select PDSUBNAME, PDCOST, PDPRICE\n" +
+                "from PRODUCT\n" +
+                "where PDCOST > (select min(PDCOST)\n" +
+                "                from PRODUCT\n" +
+                "                where PDNAME='TV')\n" +
+                "and PDCOST < (SELECT max(PDCOST)\n" +
+                "                FROM PRODUCT\n" +
+                "                WHERE PDNAME='CELLPHONE')\n" +
+                "ORDER BY PDCOST, PDSUBNAME";
+
+        try {
+            pstmt = conn.prepareStatement(sql);
+            resultSet = pstmt.executeQuery();
+
+            while (resultSet.next()) {
+                System.out.print(resultSet.getString("PDSUBNAME") + "\t\t");
+                System.out.print(resultSet.getInt("PDCOST") + "\t\t\t");
+                System.out.println(resultSet.getInt("PDPRICE"));
+            }
+
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        } finally {
+            close(conn);
+            close(pstmt);
+            close(resultSet);
+        }
 
     }
 }

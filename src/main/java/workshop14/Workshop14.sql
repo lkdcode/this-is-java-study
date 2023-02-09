@@ -58,7 +58,7 @@ from PRODUCT;
 /* 제품카테고리가 TV 이면서 가장 싼 값보다 비싸면서
    제품카테고리가 CELLPONE 이면서 가장 비싼 값보다 싼 모든 제품
 */
-select PDNAME, PDCOST, PDPRICE
+select PDSUBNAME, PDCOST, PDPRICE
 from PRODUCT
 where PDCOST > (select min(PDCOST)
                 from PRODUCT
@@ -66,4 +66,4 @@ where PDCOST > (select min(PDCOST)
 and PDCOST < (SELECT max(PDCOST)
                 FROM PRODUCT
                 WHERE PDNAME='CELLPHONE')
-ORDER BY PDCOST;
+ORDER BY PDCOST, PDSUBNAME;
