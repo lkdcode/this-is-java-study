@@ -1,6 +1,6 @@
-package workshop14.workshop;
+package workshop14;
 
-public class Test04 {
+public class Main {
     public static void main(String[] args) {
 
     }
