@@ -1,11 +1,11 @@
 package workshop14.workshop;
 
+import workshop14.connection.ConnectionPool;
+
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-
-import static workshop14.Pool.*;
 
 public class Test02 {
     /**
@@ -24,7 +24,7 @@ public class Test02 {
         System.out.println("----------+-----------------+-------------");
 
 
-        Connection conn = getConnection();
+        Connection connection = ConnectionPool.getInstance().getConnection();
         PreparedStatement pstmt = null;
         ResultSet resultSet = null;
 
@@ -39,7 +39,7 @@ public class Test02 {
                 "ORDER BY PDCOST, PDSUBNAME";
 
         try {
-            pstmt = conn.prepareStatement(sql);
+            pstmt = connection.prepareStatement(sql);
             resultSet = pstmt.executeQuery();
 
             while (resultSet.next()) {
@@ -51,9 +51,9 @@ public class Test02 {
         } catch (SQLException e) {
             throw new RuntimeException(e);
         } finally {
-            close(conn);
-            close(pstmt);
-            close(resultSet);
+            ConnectionPool.close(connection);
+            ConnectionPool.close(pstmt);
+            ConnectionPool.close(resultSet);
         }
 
     }

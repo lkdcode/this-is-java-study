@@ -1,11 +1,11 @@
 package workshop14.workshop;
 
+import workshop14.connection.ConnectionPool;
+
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-
-import static workshop14.Pool.*;
 
 public class Test01 {
     /**
@@ -19,7 +19,7 @@ public class Test01 {
         System.out.println("제품카테고리\t\t제품명\t\t공장명\t\t\t\t판매점명\t\t판매점재고수량");
         System.out.println("----------+------------+------------------+--------------+--------------");
 
-        Connection conn = getConnection();
+        Connection connection = ConnectionPool.getInstance().getConnection();
         PreparedStatement pstmt = null;
         ResultSet rs = null;
 
@@ -31,7 +31,7 @@ public class Test01 {
                 "order by PDNAME";
 
         try {
-            pstmt = conn.prepareStatement(sql);
+            pstmt = connection.prepareStatement(sql);
             rs = pstmt.executeQuery();
 
             while (rs.next()) {
@@ -45,9 +45,9 @@ public class Test01 {
         } catch (SQLException e) {
             throw new RuntimeException(e);
         } finally {
-            close(conn);
-            close(pstmt);
-            close(rs);
+            ConnectionPool.close(connection);
+            ConnectionPool.close(pstmt);
+            ConnectionPool.close(rs);
         }
     }
 }
