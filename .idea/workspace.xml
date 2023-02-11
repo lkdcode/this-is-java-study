@@ -5,24 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5871f532-5d89-43dd-978d-a6446b70e74b" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/builder/BuilderPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/builder/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/proxy/ClientWithProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/proxy/IService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/proxy/Proxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/proxy/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/workshop14/connection/ConnectionAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/workshop14/factory/FactoryBiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/workshop14/factory/FactoryDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/workshop14/factory/Test06.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/workshop14/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/workshop14/Pool.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/workshop14/connection/Connectable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/workshop14/connection/Connectable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/workshop14/connection/ConnectionPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/workshop14/connection/ConnectionPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/workshop14/connection/ConnectionProxy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/workshop14/workshop/Test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/workshop14/workshop/Test01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/workshop14/workshop/Test02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/workshop14/workshop/Test02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/workshop14/workshop/Test03.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/workshop14/workshop/Test03.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/workshop14/workshop/Test04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/workshop14/workshop/Test04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/workshop14/workshop/Test05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/workshop14/workshop/Test05.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +106,7 @@
       <recent name="hope.user" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test05">
+  <component name="RunManager" selected="Application.Test06">
     <configuration name="CalcTest" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="workshop12.workshop.calc.CalcTest" />
       <module name="this-is-java-study.main" />
@@ -204,19 +190,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="workshop14.workshop.Main" />
-      <module name="this-is-java-study.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="workshop14.workshop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MonthsTest" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="workshop10.com.month.MonthsTest" />
       <module name="this-is-java-study.main" />
@@ -271,6 +244,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="workshop14.factory.Test06" />
+      <module name="this-is-java-study.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="workshop14.factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="designpattern.builder.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="designpattern.builder.Main" />
       <module name="this-is-java-study.main" />
@@ -286,11 +272,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test06" />
         <item itemvalue="Application.Test05" />
         <item itemvalue="Application.Test04" />
         <item itemvalue="Application.ClientWithProxy" />
         <item itemvalue="Application.designpattern.builder.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -302,13 +288,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672722254431</updated>
-    </task>
-    <task id="LOCAL-00031" summary="🔥 유저로부터 메뉴 주문을 입력받는 클래스&#10;&#10;구현 완료">
-      <created>1673233495631</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1673233495631</updated>
     </task>
     <task id="LOCAL-00032" summary="🔥 유저로부터 메뉴 주문을 입력받은 값을 검증하는 클래스&#10;&#10;구현 완료">
       <created>1673233521327</created>
@@ -646,7 +625,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676037142049</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="Initial commit">
+      <created>1676126197558</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1676126197558</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
