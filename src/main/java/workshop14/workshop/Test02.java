@@ -23,7 +23,6 @@ public class Test02 {
         System.out.println("제품명\t\t\t제품원가\t\t\t제품가격");
         System.out.println("----------+-----------------+-------------");
 
-
         Connection connection = ConnectionPool.getInstance().getConnection();
         PreparedStatement pstmt = null;
         ResultSet resultSet = null;

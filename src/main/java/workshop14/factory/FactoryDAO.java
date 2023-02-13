@@ -19,6 +19,7 @@ public class FactoryDAO {
         String sql = "SELECT * FROM factory ORDER BY FACTNO";
 
         try {
+
             pstmt = connection.prepareStatement(sql);
             rs = pstmt.executeQuery();
 
