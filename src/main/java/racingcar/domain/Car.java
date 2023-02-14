@@ -5,12 +5,22 @@ package racingcar.domain;
  */
 public class Car {
     private final String name;
-    private int position = 0;
+    private Integer position;
 
     public Car(String name) {
         this.name = name;
     }
 
-    // 추가 기능 구현
+    // TODO : 추가 기능 구현
+    public void move() {
+        this.position = new RandomMove().get();
+    }
 
+    public String getName() {
+        return name;
+    }
+
+    public Integer getPosition() {
+        return position;
+    }
 }
