@@ -4,23 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5871f532-5d89-43dd-978d-a6446b70e74b" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/racingcar/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/racingcar/controller/SystemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/racingcar/domain/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/racingcar/domain/Cars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/racingcar/domain/MakeRandomNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/racingcar/domain/Racer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/racingcar/input/UserInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/racingcar/message/ErrorMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/racingcar/message/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/racingcar/view/InputView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/racingcar/view/OutputView.java" afterDir="false" />
+    <list default="true" id="5871f532-5d89-43dd-978d-a6446b70e74b" name="Changes" comment="🔥유저로부터 입력 받는 클래스 구현&#10;&#10;내부적으로 유효성 검사를 실시하고&#10;검사가 완료된 데이터를 리턴하도록 구현하였다.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/racingcar/domain/Racing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/racingcar/view/InputViewTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/racingcar/docs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/racingcar/docs/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/workshop14/Workshop14.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/workshop14/Workshop14.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/workshop14/factory/FactoryDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/workshop14/factory/FactoryDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/workshop14/workshop/Test02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/workshop14/workshop/Test02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/css/css35_div.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/racingcar/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/racingcar/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/racingcar/controller/SystemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/racingcar/controller/SystemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/racingcar/domain/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/racingcar/domain/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/racingcar/domain/Cars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/racingcar/domain/Cars.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/racingcar/domain/MakeRandomNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/racingcar/domain/Racer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/racingcar/input/UserInput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/racingcar/view/OutputView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/racingcar/view/OutputView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +54,7 @@
         <option value="HTML File" />
         <option value="Enum" />
         <option value="Interface" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -86,6 +83,8 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/kiducklee/IdeaProjects/this-is-java-study/docs&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
@@ -96,11 +95,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="anddl" />
       <recent name="designpattern.adpater" />
       <recent name="workshop14.workshop" />
       <recent name="designpattern" />
       <recent name="lion" />
-      <recent name="hope.user.order.validate" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/docs" />
@@ -110,6 +109,12 @@
       <recent name="$PROJECT_DIR$/docs" />
       <recent name="$PROJECT_DIR$/docs/ex" />
       <recent name="C:\Users\lkd\IdeaProjects\this-is-java-study\src\main\java\dress" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="racingcar.view" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="workshop8.com.car" />
@@ -300,48 +305,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672722254431</updated>
-    </task>
-    <task id="LOCAL-00034" summary="🔥 유저로부터 입력받은 주문할 매뉴의 수량의 값을 검증하는 클래스&#10;&#10;구현 완료">
-      <created>1673233578836</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1673233578836</updated>
-    </task>
-    <task id="LOCAL-00035" summary="🔥 유저가 주문을 할 때 테이블 넘버를 입력받는 클래스&#10;&#10;구현 완료">
-      <created>1673233606575</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1673233606575</updated>
-    </task>
-    <task id="LOCAL-00036" summary="🔥 유저가 주문을 할 때 입력받은 테이블 넘버 값을 검증하는 클래스&#10;&#10;구현 완료">
-      <created>1673233629366</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1673233629366</updated>
-    </task>
-    <task id="LOCAL-00037" summary="🔥 주문등록 매뉴를 관리하는 클래스&#10;&#10;구현 완료">
-      <created>1673233667817</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1673233667817</updated>
-    </task>
-    <task id="LOCAL-00038" summary="🔥 유저로 부터 입력받는 역할의 인터페이스&#10;&#10;리턴 값 int 로 변경">
-      <created>1673233707134</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1673233707134</updated>
-    </task>
-    <task id="LOCAL-00039" summary="🔥 유저에게 보여줄 에러 메시지 이넘 클래스">
-      <created>1673247252169</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1673247252169</updated>
     </task>
     <task id="LOCAL-00040" summary="🔥 유저에게 보여줄 메시지 이넘 클래스">
       <created>1673247262985</created>
@@ -644,7 +607,49 @@
       <option name="project" value="LOCAL" />
       <updated>1676275738522</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="Initial commit">
+      <created>1676300257142</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1676300257143</updated>
+    </task>
+    <task id="LOCAL-00084" summary="🔥전진 조건 클래스 구현 완료&#10;&#10;랜덤으로 번호를 생성하여 전진 조건에 맞는지 판단 후 리턴">
+      <created>1676362556264</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1676362556265</updated>
+    </task>
+    <task id="LOCAL-00085" summary="🔥경주에 임할 자동차 클래스 구현&#10;&#10;자동차 이름과 포지션을 가지고 있다.">
+      <created>1676362609098</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1676362609098</updated>
+    </task>
+    <task id="LOCAL-00086" summary="🔥자동차 클래스 일급 콜렉션 구현&#10;&#10;경기에 임할 자동차 한 데 모아 일급 콜렉션으로 구현하였다.">
+      <created>1676362650125</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1676362650125</updated>
+    </task>
+    <task id="LOCAL-00087" summary="🔥에러 메시지 수정&#10;&#10;println() -&gt; printf() 로 변경">
+      <created>1676362683226</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1676362683226</updated>
+    </task>
+    <task id="LOCAL-00088" summary="🔥유저로부터 입력 받는 클래스 구현&#10;&#10;내부적으로 유효성 검사를 실시하고&#10;검사가 완료된 데이터를 리턴하도록 구현하였다.">
+      <created>1676362713909</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1676362713909</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -660,11 +665,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value=" 유저로 부터 입력받는 역할의 인터페이스&#10;&#10;리턴 값 int 로 변경" />
-    <MESSAGE value=" 유저에게 보여줄 에러 메시지 이넘 클래스" />
-    <MESSAGE value=" 유저에게 보여줄 메시지 이넘 클래스" />
-    <MESSAGE value=" README 문서&#10;&#10;로직 수정" />
-    <MESSAGE value=" 주문 등록 매뉴를 관리하는 클래스&#10;&#10;UserInput 인터페이스 하나만 사용하여 로직 재 구성" />
     <MESSAGE value=" 카드 결제를 담당하는 클래스&#10;&#10;extends Discount 삭제&#10;리팩터링 필요" />
     <MESSAGE value="✨ 현금 결제를 담당하는 클래스&#10;&#10;extends Discount 삭제&#10;리팩터링 필요" />
     <MESSAGE value=" 데이터 베이스&#10;&#10;초기화 셋팅 당시에 테이블을 0번부터 6번까지 생성하도록 변경.&#10;&#10;주문내역을 가져올 때 테이블 번호를 받아서 가져오도록 변경.&#10;&#10;테이블리스트를 돌면서 주문내역이 있는지 검사하여 미결제건을 찾도록 변경." />
@@ -685,7 +685,12 @@
     <MESSAGE value=" README.md" />
     <MESSAGE value="change repository" />
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="전진 조건 클래스 구현 완료&#10;&#10;랜덤으로 번호를 생성하여 전진 조건에 맞는지 판단 후 리턴" />
+    <MESSAGE value="경주에 임할 자동차 클래스 구현&#10;&#10;자동차 이름과 포지션을 가지고 있다." />
+    <MESSAGE value="자동차 클래스 일급 콜렉션 구현&#10;&#10;경기에 임할 자동차 한 데 모아 일급 콜렉션으로 구현하였다." />
+    <MESSAGE value="에러 메시지 수정&#10;&#10;println() -&gt; printf() 로 변경" />
+    <MESSAGE value="유저로부터 입력 받는 클래스 구현&#10;&#10;내부적으로 유효성 검사를 실시하고&#10;검사가 완료된 데이터를 리턴하도록 구현하였다." />
+    <option name="LAST_COMMIT_MESSAGE" value="유저로부터 입력 받는 클래스 구현&#10;&#10;내부적으로 유효성 검사를 실시하고&#10;검사가 완료된 데이터를 리턴하도록 구현하였다." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
