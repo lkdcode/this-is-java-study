@@ -4,18 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5871f532-5d89-43dd-978d-a6446b70e74b" name="Changes" comment="🔥유저로부터 입력 받는 클래스 구현&#10;&#10;내부적으로 유효성 검사를 실시하고&#10;검사가 완료된 데이터를 리턴하도록 구현하였다.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/racingcar/domain/Racing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/racingcar/view/InputViewTest.java" afterDir="false" />
+    <list default="true" id="5871f532-5d89-43dd-978d-a6446b70e74b" name="Changes" comment="Initial Commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/racingcar/domain/Referee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/css/css35_div.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/racingcar/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/racingcar/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/racingcar/controller/SystemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/racingcar/controller/SystemController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/racingcar/domain/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/racingcar/domain/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/racingcar/domain/Cars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/racingcar/domain/Cars.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/racingcar/domain/MakeRandomNumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/racingcar/domain/Racer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/racingcar/input/UserInput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/racingcar/domain/Cars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/racingcar/domain/Arena.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/racingcar/domain/Racing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/racingcar/domain/RandomMove.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/racingcar/domain/RandomMove.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/racingcar/message/ErrorMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/racingcar/message/ErrorMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/racingcar/message/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/racingcar/message/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/racingcar/view/InputView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/racingcar/view/InputView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/racingcar/view/OutputView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/racingcar/view/OutputView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -165,19 +165,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientWithProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designpattern.proxy.ClientWithProxy" />
-      <module name="this-is-java-study.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="designpattern.proxy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DateTest" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="workshop12.workshop.date.DateTest" />
       <module name="this-is-java-study.main" />
@@ -248,6 +235,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="workshop14.workshop.Test02" />
+      <module name="this-is-java-study.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="workshop14.workshop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="workshop14.workshop.Test04" />
       <module name="this-is-java-study.main" />
@@ -290,10 +290,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Application" />
+        <item itemvalue="Application.Test02" />
         <item itemvalue="Application.Test06" />
         <item itemvalue="Application.Test05" />
         <item itemvalue="Application.Test04" />
-        <item itemvalue="Application.ClientWithProxy" />
       </list>
     </recent_temporary>
   </component>
@@ -305,55 +305,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672722254431</updated>
-    </task>
-    <task id="LOCAL-00040" summary="🔥 유저에게 보여줄 메시지 이넘 클래스">
-      <created>1673247262985</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1673247262985</updated>
-    </task>
-    <task id="LOCAL-00041" summary="📝 README 문서&#10;&#10;로직 수정">
-      <created>1673247656732</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1673247656732</updated>
-    </task>
-    <task id="LOCAL-00042" summary="🔥 주문 등록 매뉴를 관리하는 클래스&#10;&#10;UserInput 인터페이스 하나만 사용하여 로직 재 구성">
-      <created>1673250956493</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1673250956493</updated>
-    </task>
-    <task id="LOCAL-00043" summary="🔥 카드 결제를 담당하는 클래스&#10;&#10;extends Discount 삭제&#10;리팩터링 필요">
-      <created>1673329130610</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1673329130610</updated>
-    </task>
-    <task id="LOCAL-00044" summary="✨ 현금 결제를 담당하는 클래스&#10;&#10;extends Discount 삭제&#10;리팩터링 필요">
-      <created>1673329180516</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1673329180516</updated>
-    </task>
-    <task id="LOCAL-00045" summary="🔥 데이터 베이스&#10;&#10;초기화 셋팅 당시에 테이블을 0번부터 6번까지 생성하도록 변경.&#10;&#10;주문내역을 가져올 때 테이블 번호를 받아서 가져오도록 변경.&#10;&#10;테이블리스트를 돌면서 주문내역이 있는지 검사하여 미결제건을 찾도록 변경.">
-      <created>1673329318254</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1673329318254</updated>
-    </task>
-    <task id="LOCAL-00046" summary="🔥 에러 메시지 이넘 클래스&#10;&#10;결제 방식 선택 오류 메시지 추가">
-      <created>1673329348065</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1673329348065</updated>
     </task>
     <task id="LOCAL-00047" summary="🔥 메시지 이넘 클래스&#10;&#10;이모지 추가">
       <created>1673329363751</created>
@@ -649,7 +600,56 @@
       <option name="project" value="LOCAL" />
       <updated>1676362713909</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="🔥메인 어플리케이션&#10;&#10;자동차 경주 게임 메인 어플리케이션">
+      <created>1676525705509</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1676525705509</updated>
+    </task>
+    <task id="LOCAL-00090" summary="🔥자동차 객체 구현 완료">
+      <created>1676526282526</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1676526282526</updated>
+    </task>
+    <task id="LOCAL-00091" summary="🔥자동차를 담고 있는 일급 콜렉션&#10;&#10;구현 완료">
+      <created>1676526308716</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1676526308716</updated>
+    </task>
+    <task id="LOCAL-00092" summary="🔥레이싱 결과를 출력하는 클래스&#10;&#10;1차 구현 완료&#10;리팩터링 필요">
+      <created>1676526329940</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1676526329940</updated>
+    </task>
+    <task id="LOCAL-00093" summary="🔥자동차 경주를 진행하는 클래스&#10;&#10;구현 완료">
+      <created>1676526354245</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1676526354245</updated>
+    </task>
+    <task id="LOCAL-00094" summary="🔥메인 컨트롤러&#10;&#10;1차 구현 완료&#10;리팩토링 필요">
+      <created>1676526367218</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1676526367218</updated>
+    </task>
+    <task id="LOCAL-00095" summary="Initial Commit">
+      <created>1676526379249</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1676526379249</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -665,13 +665,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value=" 카드 결제를 담당하는 클래스&#10;&#10;extends Discount 삭제&#10;리팩터링 필요" />
-    <MESSAGE value="✨ 현금 결제를 담당하는 클래스&#10;&#10;extends Discount 삭제&#10;리팩터링 필요" />
-    <MESSAGE value=" 데이터 베이스&#10;&#10;초기화 셋팅 당시에 테이블을 0번부터 6번까지 생성하도록 변경.&#10;&#10;주문내역을 가져올 때 테이블 번호를 받아서 가져오도록 변경.&#10;&#10;테이블리스트를 돌면서 주문내역이 있는지 검사하여 미결제건을 찾도록 변경." />
-    <MESSAGE value=" 에러 메시지 이넘 클래스&#10;&#10;결제 방식 선택 오류 메시지 추가" />
-    <MESSAGE value=" 메시지 이넘 클래스&#10;&#10;이모지 추가" />
-    <MESSAGE value=" 주문등록 매뉴를 관리하는 클래스" />
-    <MESSAGE value=" 결제 인터페이스&#10;&#10;매개변수 추가" />
     <MESSAGE value=" 결제하기를 관리하는 클래스&#10;&#10;리팩터링 필요" />
     <MESSAGE value=" 메인 컨트롤러" />
     <MESSAGE value=" 테이블이 주문한 정보를 가지고 있는 클래스&#10;&#10;이모지 추가" />
@@ -690,7 +683,14 @@
     <MESSAGE value="자동차 클래스 일급 콜렉션 구현&#10;&#10;경기에 임할 자동차 한 데 모아 일급 콜렉션으로 구현하였다." />
     <MESSAGE value="에러 메시지 수정&#10;&#10;println() -&gt; printf() 로 변경" />
     <MESSAGE value="유저로부터 입력 받는 클래스 구현&#10;&#10;내부적으로 유효성 검사를 실시하고&#10;검사가 완료된 데이터를 리턴하도록 구현하였다." />
-    <option name="LAST_COMMIT_MESSAGE" value="유저로부터 입력 받는 클래스 구현&#10;&#10;내부적으로 유효성 검사를 실시하고&#10;검사가 완료된 데이터를 리턴하도록 구현하였다." />
+    <MESSAGE value="메인 어플리케이션&#10;&#10;자동차 경주 게임 메인 어플리케이션" />
+    <MESSAGE value="자동차 객체 구현 완료" />
+    <MESSAGE value="자동차를 담고 있는 일급 콜렉션&#10;&#10;구현 완료" />
+    <MESSAGE value="레이싱 결과를 출력하는 클래스&#10;&#10;1차 구현 완료&#10;리팩터링 필요" />
+    <MESSAGE value="자동차 경주를 진행하는 클래스&#10;&#10;구현 완료" />
+    <MESSAGE value="메인 컨트롤러&#10;&#10;1차 구현 완료&#10;리팩토링 필요" />
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
