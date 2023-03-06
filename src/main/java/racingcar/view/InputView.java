@@ -14,8 +14,8 @@ import java.io.InputStreamReader;
 public class InputView {
     private final BufferedReader bufferedReader;
     private final String SEPARATOR = ",";
-    private final Integer MIN_CAR_LIST = 2;
-    private final Integer MIN_LAP_TIME = 1;
+    private final int MIN_CAR_LIST = 2;
+    private final int MIN_LAP_TIME = 1;
 
     public InputView() {
         this.bufferedReader = new BufferedReader(new InputStreamReader(System.in));
@@ -24,34 +24,34 @@ public class InputView {
     public String[] carNames() {
         while (true) {
             try {
-                Message.INPUT_CAR_NAME.print();
-                return validateCarNames(bufferedReader.readLine().split(this.SEPARATOR));
+                System.out.println(Message.INPUT_CAR_NAME.message());
+                return validateCarNames(bufferedReader.readLine().split(SEPARATOR));
             } catch (IOException e) {
-                ErrorMessage.ERROR_INPUT_CAR_NAME.print();
+                System.out.println(ErrorMessage.ERROR_INPUT_CAR_NAME.message());
             }
         }
     }
 
-    public Integer lapTime() {
+    public int lapTime() {
         while (true) {
             try {
-                Message.INPUT_LAP_TIME.print();
+                System.out.println(Message.INPUT_LAP_TIME.message());
                 return validateLapTime(Integer.parseInt(bufferedReader.readLine()));
             } catch (IOException | NumberFormatException e) {
-                ErrorMessage.ERROR_INPUT_LAT_TIME.print();
+                System.out.println(ErrorMessage.ERROR_INPUT_LAT_TIME.message());
             }
         }
     }
 
     private String[] validateCarNames(String[] carNames) throws IOException {
-        if (carNames.length < this.MIN_CAR_LIST) {
+        if (carNames.length < MIN_CAR_LIST) {
             throw new IOException();
         }
         return carNames;
     }
 
-    private Integer validateLapTime(Integer lapTime) throws IOException {
-        if (lapTime < this.MIN_LAP_TIME) {
+    private int validateLapTime(int lapTime) throws IOException {
+        if (lapTime < MIN_LAP_TIME) {
             throw new IOException();
         }
         return lapTime;
