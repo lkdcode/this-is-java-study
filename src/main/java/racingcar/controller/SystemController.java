@@ -1,6 +1,7 @@
 package racingcar.controller;
 
-import racingcar.domain.Racing;
+import racingcar.domain.Referee;
+import racingcar.domain.Arena;
 import racingcar.view.InputView;
 import racingcar.view.OutputView;
 
@@ -11,33 +12,35 @@ import java.util.Collections;
  */
 public class SystemController {
     private final InputView inputView;
-    private final Racing racing;
+    private final Arena arena;
     private final OutputView outputView;
+    private final Referee referee;
 
     public SystemController() {
         this.inputView = new InputView();
-        this.racing = new Racing();
+        this.arena = new Arena();
         this.outputView = new OutputView();
+        this.referee = new Referee();
     }
 
-    public void start() {
+    public void playGame() {
         ready();
-        Integer lapTime = inputView.lapTime();
-
-        System.out.printf("%n실행 결과%n");
-        for (int i = 0; i < lapTime; i++) {
-            this.racing.move();
-            outputView.playResultPrint(this.racing.getCars());
-            outputView.playResultPrint(Collections.unmodifiableList(this.racing.getCars()));
-        }
-
-        outputView.finalWinner(Collections.unmodifiableList(this.racing.getCars()));
+        start();
     }
 
     private void ready() {
         String[] carNames = inputView.carNames();
-        this.racing.ready(carNames);
+        arena.readyCars(carNames);
     }
 
+    private void start() {
+        for (int i = 0; i < inputView.lapTime(); i++) {
+            arena.moving();
+            referee.addResult(Collections.unmodifiableList(arena.getCars()));
+        }
+
+        StringBuilder result = referee.getResult(Collections.unmodifiableList(arena.getCars()));
+        outputView.resultPrint(result);
+    }
 
 }
